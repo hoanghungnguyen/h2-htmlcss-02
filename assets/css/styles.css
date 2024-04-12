@@ -440,6 +440,27 @@ a {
   line-height: 1.88; /* 185.714% */
 }
 
+.feedback .info .dots {
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedback .info .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  /* opacity: 1px; */
+  cursor: pointer;
+}
+
+.feedback .info .dot:nth-child(2) {
+  background: #ffb900;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: default;
+}
+
 .feedback-item .content {
   position: relative;
   width: 770px;
