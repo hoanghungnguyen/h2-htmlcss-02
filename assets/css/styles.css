@@ -336,7 +336,7 @@ a {
   padding: 16px 22px 22px;
 }
 
-.popular .info .title {
+.popular .info .title a {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
