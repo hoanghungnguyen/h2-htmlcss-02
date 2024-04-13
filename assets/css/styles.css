@@ -743,10 +743,39 @@ a {
 
 .footer .column .title-cl {
   display: inline-block;
-  padding: 0 48px 14px 0;
+  padding: 0 48px 10px 0;
   border-bottom: 1px solid #59554b;
   color: #fff;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.75; /* 175% */
+}
+
+.footer .column .list {
+  margin-top: 30px;
+}
+
+.column .list li a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.column .list li:first-child a {
+  margin-top: 0;
+}
+
+.column .list strong {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
 }
