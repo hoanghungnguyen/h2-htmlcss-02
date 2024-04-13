@@ -673,9 +673,33 @@ a {
 }
 
 .blog .item .btn {
+  font-size: 1.4rem;
   margin-top: 12px;
 }
 
 .blog .item .btn:hover {
   background: #ffb900;
+}
+
+.blog .dots {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.blog .dot {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #5f5b53;
+  cursor: pointer;
+}
+
+.blog .dot:nth-child(2) {
+  background-color: var(--primary-color);
+  cursor: default;
 }
