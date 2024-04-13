@@ -703,3 +703,7 @@ a {
   background-color: var(--primary-color);
   cursor: default;
 }
+
+.footer {
+  display: flex;
+}
