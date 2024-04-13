@@ -564,9 +564,13 @@ a {
   margin-right: 130px;
 }
 
-.features .images .img-03 {
+.features .images-02 .img-03 {
+  display: inline-block;
   width: 470px;
   height: 440px;
+  margin: -34px 0 34px 0;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 /* Blog */
